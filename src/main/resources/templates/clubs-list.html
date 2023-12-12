@@ -1,4 +1,4 @@
-<html xmlns:th="http://thmyelead.org">
+<html xmlns:th="http://www.thmyeleaf.org">
 <body class="d-flex flex-column h-100">
 <main class="flex-shrink-0">
     <!-- Navigation-->
@@ -39,8 +39,8 @@
                 <p class="lead fw-normal text-muted mb-0">Company portfolio</p>
             </div>
             <div class="row gx-5">
-                <div th:each = "club :${clubs}" class="col-lg-6">
-                        <img class="img-fluid rounded-3 mb-3" th:src="${club.photoUrl}=" alt ="..." />
+                <div th:each ="club :${clubs}" class ="col-lg-6"> <h1>here</h1>
+                        <img class="img-fluid rounded-3 mb-3" th:src="${club.photoUrl}" alt ="..." />
                         <a th:text="${club.title}" class ="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!" > Project name </a>
                     </div>
                 </div>
